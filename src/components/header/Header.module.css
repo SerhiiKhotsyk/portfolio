@@ -1,0 +1,117 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1590px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    padding: 10px 10px;
+}
+
+.logo {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.firstname {
+    color: #828282;
+}
+.lastname {
+    color: #F2F2F2
+}
+.menu {
+    display: flex;
+    font-size: 26px;
+}
+.menu a{
+    margin-right: 50px;
+}
+.menu a:last-child {
+    margin-right: 0;
+}
+.social {
+    display: flex;
+    font-size: 26px;
+}
+.social a, .menu a  {
+    padding: 15px 0px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease;
+    align-items: center;
+    line-height: 32px;
+}
+.social a:hover, .menu a:hover {
+    border-bottom: 2px solid #4EE1A0;;
+}
+
+.social a img {
+    margin-right: 10px;
+    width: 34px;
+    height: 34px;
+    position: relative;
+}
+.social li, .menu li {
+    margin-right: 30px;
+}
+.social li:last-child, .menu li:last-child {
+    margin-right: 0px;
+}
+
+/* ---------------- media ----------------------- */
+@media (max-width: 1980px) {
+    .header {
+        max-width: 1300px;
+        margin-bottom: 130px;
+    }
+    .logo {
+        font-size: 40px;
+    }
+    .menu {
+        font-size: 22px;
+    }
+    .social {
+        font-size: 22px;
+    }
+    .social a img {
+        width: 30px;
+        height: 30px;
+        top: 1px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header {
+        margin-bottom: 50px;
+    }
+    .logo {
+        font-size: 35px;
+    }
+    .menu {
+        font-size: 22px;
+    }
+    .social {
+        font-size: 0px;
+    }
+    .social a {
+        padding: 25px 0px;
+    }
+    .social a img {
+        width: 30px;
+        height: 30px;
+        top: 0px;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 750px) {
+    .social li, .menu li {
+        margin-right: 20px;
+    }
+    .social li:last-child, .menu li:last-child {
+        margin-right: 0px;
+    }
+}
+@media (max-width: 650px) {
+    .menu li {
+        display: none;
+    }
+}
