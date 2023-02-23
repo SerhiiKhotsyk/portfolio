@@ -6,23 +6,36 @@ const Project = ({ project }) => {
   return (
     <div className={styles.element}>
       <div className={styles.imgContainer}>
-        <img src={project.img} alt='projectImage' />
+        <img src={project.img} alt="projectImage" />
+        <a href={project.linkPreview} target="_blank" className={styles.imgView}>
+          View
+        </a>
       </div>
       <div className={styles.textBlock}>
         <div className={styles.textBlock__content}>
           <h4 className={styles.textBlock__title}>{project.title}</h4>
-          <p className={styles.textBlock__decr}>
-            {project.descr}
+          <p className={styles.textBlock__decr}>{project.descr}</p>
+          <p className={styles.textBlock__stack}>
+            Tech stack : <span>{project.stack}</span>
           </p>
-          <p className={styles.textBlock__stack}>Tech stack : <span>{project.stack}</span></p>
         </div>
         <div className={styles.textBlock__footer}>
-          <span><a href={project.linkPreview} target="_blank" ><img src={projLink} className={styles.footer__img} />Live Preview</a></span>
-          <span><a href={project.linkGithub} target="_blank"><img src={github} className={styles.footer__img} />View Code</a></span>
+          <span>
+            <a href={project.linkPreview} target="_blank">
+              <img src={projLink} className={styles.footer__img} />
+              Live Preview
+            </a>
+          </span>
+          <span>
+            <a href={project.linkGithub} target="_blank">
+              <img src={github} className={styles.footer__img} />
+              View Code
+            </a>
+          </span>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Project;

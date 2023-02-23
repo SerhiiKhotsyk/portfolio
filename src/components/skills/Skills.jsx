@@ -11,24 +11,55 @@ import git from '../../assets/images/skills/git.svg';
 import greensock from '../../assets/images/skills/greensock.svg';
 import vscode from '../../assets/images/skills/vscode.svg';
 import github from '../../assets/images/skills/github.svg';
+import { forwardRef } from 'react';
 
 const images = [
-  html5, css3, javascript, react, redux, bootstrap, tailwind, sass, git, greensock, vscode, github
+  html5,
+  css3,
+  javascript,
+  react,
+  redux,
+  bootstrap,
+  tailwind,
+  sass,
+  git,
+  greensock,
+  vscode,
+  github,
 ];
 
-const Skills = () => {
+const Skills = forwardRef((props, ref) => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} ref={ref}>
       <div className={styles.skills}>
-        <h5>skills<span>()</span></h5>
+        <h5>
+          skills<span>()</span>
+        </h5>
         <div className={styles.images}>
-          {images.map(img => <div className={styles.imgContainer} key={img}>
-            <img src={img} alt='icon' />
-          </div>)}
+          {images.map((img) => (
+            <div className={styles.imgContainer} key={img}>
+              <img src={img} alt="icon" />
+            </div>
+          ))}
         </div>
       </div>
     </section>
   );
-}
+});
+
+// const Skills = () => {
+//   return (
+//     <section className={styles.container}>
+//       <div className={styles.skills}>
+//         <h5>skills<span>()</span></h5>
+//         <div className={styles.images}>
+//           {images.map(img => <div className={styles.imgContainer} key={img}>
+//             <img src={img} alt='icon' />
+//           </div>)}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
 
 export default Skills;
