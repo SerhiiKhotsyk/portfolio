@@ -22,7 +22,7 @@ const Skills = () => {
       <div className={styles.skills}>
         <h5>skills<span>()</span></h5>
         <div className={styles.images}>
-          {images.map(img => <div className={styles.imgContainer}>
+          {images.map(img => <div className={styles.imgContainer} key={img}>
             <img src={img} alt='icon' />
           </div>)}
         </div>
