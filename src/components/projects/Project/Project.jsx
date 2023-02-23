@@ -17,8 +17,8 @@ const Project = ({ project }) => {
           <p className={styles.textBlock__stack}>Tech stack : <span>{project.stack}</span></p>
         </div>
         <div className={styles.textBlock__footer}>
-          <span><a href={project.linkPreview}><img src={projLink} className={styles.footer__img} />Live Preview</a></span>
-          <span><a href={project.github}><img src={github} className={styles.footer__img} />View Code</a></span>
+          <span><a href={project.linkPreview} target="_blank" ><img src={projLink} className={styles.footer__img} />Live Preview</a></span>
+          <span><a href={project.linkGithub} target="_blank"><img src={github} className={styles.footer__img} />View Code</a></span>
         </div>
       </div>
     </div>
