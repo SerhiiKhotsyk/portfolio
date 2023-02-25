@@ -1,6 +1,6 @@
 import styles from './Projects.module.css';
 import project1 from '../../assets/images/projects/mui-layout-project.jpg';
-import project2 from '../../assets/images/projects/project-2.jpg';
+import project2 from '../../assets/images/projects/react-pizza.jpg';
 import project3 from '../../assets/images/projects/project-3.jpg';
 import project4 from '../../assets/images/projects/project-4.jpg';
 import project5 from '../../assets/images/projects/project-5.jpg';
@@ -21,13 +21,13 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Project Tile goes here',
+    title: 'React Pizza',
     img: project2,
-    linkPreview: '#',
-    linkGithub: '#',
-    stack: 'HTML , JavaScript, SASS, React',
+    linkPreview: 'https://serhiikhotsyk.github.io/react-pizza/',
+    linkGithub: 'https://github.com/SerhiiKhotsyk/react-pizza',
+    stack: 'HTML , JavaScript, SASS, React, Axios, React Router v6, Redux Toolkit, React Hooks',
     descr:
-      'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content description This is sample project lorem ipsum generator for dummy content e in description This is sample project lorem ipsum generator for dummy content e in description This is sample project lorem',
+      'This course details the topic of creating a front-end part of an online pizzeria store using all of the technologies listed below.',
   },
   {
     id: 3,
