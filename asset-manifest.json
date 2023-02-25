@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b281ac0e.css",
-    "main.js": "/portfolio/static/js/main.a0430c0d.js",
+    "main.js": "/portfolio/static/js/main.3f66069d.js",
     "static/media/mui-layout-project.jpg": "/portfolio/static/media/mui-layout-project.9098256bb37ce89f4723.jpg",
+    "static/media/react-pizza.jpg": "/portfolio/static/media/react-pizza.15ca2c2c56881d14b1ef.jpg",
     "static/media/Roboto-Medium.ttf": "/portfolio/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
     "static/media/Roboto-Regular.ttf": "/portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Roboto-Bold.ttf": "/portfolio/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
@@ -12,7 +13,6 @@
     "static/media/project-6.jpg": "/portfolio/static/media/project-6.803a65d1779e6c905241.jpg",
     "static/media/CourierPrime-Bold.ttf": "/portfolio/static/media/CourierPrime-Bold.3efc75fdd2d9968b87f3.ttf",
     "static/media/CourierPrime-Regular.ttf": "/portfolio/static/media/CourierPrime-Regular.7503a2e9660bb6f608fb.ttf",
-    "static/media/project-2.jpg": "/portfolio/static/media/project-2.a2d9f357cfb15dea3ada.jpg",
     "static/media/project-5.jpg": "/portfolio/static/media/project-5.e998e953a725af7f1133.jpg",
     "static/media/project-3.jpg": "/portfolio/static/media/project-3.888b3c62fa1f922e5970.jpg",
     "static/media/greensock.svg": "/portfolio/static/media/greensock.d800ac94aa98c14c805f0aee5c823285.svg",
@@ -36,10 +36,10 @@
     "static/media/teg.svg": "/portfolio/static/media/teg.a5c522eee0659b186edbbf170a73085a.svg",
     "index.html": "/portfolio/index.html",
     "main.b281ac0e.css.map": "/portfolio/static/css/main.b281ac0e.css.map",
-    "main.a0430c0d.js.map": "/portfolio/static/js/main.a0430c0d.js.map"
+    "main.3f66069d.js.map": "/portfolio/static/js/main.3f66069d.js.map"
   },
   "entrypoints": [
     "static/css/main.b281ac0e.css",
-    "static/js/main.a0430c0d.js"
+    "static/js/main.3f66069d.js"
   ]
 }
