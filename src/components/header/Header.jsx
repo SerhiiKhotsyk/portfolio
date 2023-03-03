@@ -6,10 +6,10 @@ import emailIcon from '../../assets/images/header/email.svg';
 const Header = ({ scrollTo, aboutRef, skillsRef, projectsRef, connectRef }) => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
+      <a href="/" className={styles.logo}>
         <span className={styles.firstname}>S</span>
         <span className={styles.lastaname}>K</span>
-      </div>
+      </a>
       <ul className={styles.menu}>
         <li onClick={() => scrollTo(aboutRef)}>About</li>
         <li onClick={() => scrollTo(skillsRef)}>Skills</li>

@@ -20,24 +20,20 @@ const AboutMe = forwardRef((props, ref) => {
           </p>
         </div>
         <div className={styles.spesificInfo}>
-          <div className={styles.spesificInfo__elem}>
+          <a href="#" className={styles.spesificInfo__elem}>
             <div>
               <h6>Lates project</h6>
-              <p>
-                <a href="#">Click here!</a>
-              </p>
+              <p>Click here!</p>
             </div>
             <img src={teg} alt="teg" />
-          </div>
-          <div className={styles.spesificInfo__elem}>
+          </a>
+          <a href="#" className={styles.spesificInfo__elem}>
             <div>
               <h6>Hardest project</h6>
-              <p>
-                <a href="#">Find here!</a>
-              </p>
+              <p>Find here!</p>
             </div>
             <img src={braces} alt="braces" />
-          </div>
+          </a>
         </div>
       </div>
     </section>

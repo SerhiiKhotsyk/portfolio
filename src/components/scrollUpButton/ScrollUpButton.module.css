@@ -25,8 +25,8 @@
 }
 
 .btn:hover {
-  box-shadow: 0 0 3px 3px white;
-  color: white;
+  box-shadow: 0 0 2px 1px #08fdd8;
+  color: #08fdd8;
 }
 .btn:active {
   transform: scale(1.1);

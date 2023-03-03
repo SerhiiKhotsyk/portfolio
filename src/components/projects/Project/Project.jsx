@@ -8,7 +8,7 @@ const Project = ({ project }) => {
       <div className={styles.imgContainer}>
         <img src={project.img} alt="projectImage" />
         <a href={project.linkPreview} target="_blank" className={styles.imgView}>
-          View
+          View project
         </a>
       </div>
       <div className={styles.textBlock}>
@@ -21,13 +21,13 @@ const Project = ({ project }) => {
         </div>
         <div className={styles.textBlock__footer}>
           <span>
-            <a href={project.linkPreview} target="_blank">
+            <a href={project.linkPreview} target="_blank" className={styles.linkPreview}>
               <img src={projLink} className={styles.footer__img} />
               Live Preview
             </a>
           </span>
           <span>
-            <a href={project.linkGithub} target="_blank">
+            <a href={project.linkGithub} target="_blank" className={styles.linkGithub}>
               <img src={github} className={styles.footer__img} />
               View Code
             </a>

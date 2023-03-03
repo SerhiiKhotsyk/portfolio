@@ -1,150 +1,154 @@
 .aboutMe {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 150px;
-    max-width: 1450px;
-    padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  max-width: 1450px;
+  padding: 0 10px;
 }
 
 .textBlock {
-    max-width: 800px;
-    margin-right: 30px;
+  max-width: 800px;
+  margin-right: 30px;
 }
 
 .textBlock h5 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .textBlock h5 span {
-    color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 .textBlock p {
-    font-weight: 300;
-    font-size: 27px;
-    line-height: 34px;
-    color: #F2F2F2;
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 34px;
+  color: #f2f2f2;
 }
 
 .spesificInfo__elem {
-    padding: 30px 65px 20px 35px;
-    background: #4F4F4F;
-    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-    margin-bottom: 10px;
-    font-family: 'CourierPrime';
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 400px;
+  padding: 30px 65px 20px 35px;
+  background: #4f4f4f;
+  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-family: 'CourierPrime';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 400px;
+  transition: all 0.2s ease;
+}
+
+.spesificInfo__elem:hover {
+  box-shadow: 0 0 5px 1px #08fdd8;
+  transform: scale(1.02);
 }
 
 .spesificInfo__elem h6 {
-    font-size: 33px;
-    line-height: 37px;
-    margin-bottom: 20px;
+  font-size: 33px;
+  line-height: 37px;
+  margin-bottom: 20px;
 }
 
 .spesificInfo__elem p {
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 28px;
-    text-decoration-line: underline;
-    color: #4EE1A0;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #08fdd8;
 }
 
 .spesificInfo__elem img {
-    margin-left: 30px;
-    width: 50px;
-    height: 50px;
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
 }
-
 
 /* ---------------- media ----------------------- */
 @media (max-width: 1980px) {
-    .aboutMe {
-        max-width: 1200px;
-        margin-bottom: 130px;
-    }
-    .textBlock {
-        max-width: 750px;
-        margin-right: 50px;
-    }
-    .textBlock h5 {
-        margin-bottom: 30px;
-    }
-    
-    .textBlock p {
-        font-weight: 300;
-        font-size: 24px;
-        line-height: 32px;
-    }
-    
-    .spesificInfo__elem {
-        padding: 25px 50px 20px 30px;
-        min-width: 390px;
-    }
-    
-    .spesificInfo__elem h6 {
-        font-size: 27px;
-        line-height: 33px;
-        margin-bottom: 18px;
-    }
-    
-    .spesificInfo__elem p {
-        font-size: 20px;
-        line-height: 24px;
-    }
-    
-    .spesificInfo__elem img {
-        margin-left: 30px;
-        width: 40px;
-        height: 40px;
-    }
-    
+  .aboutMe {
+    max-width: 1200px;
+    margin-bottom: 130px;
+  }
+  .textBlock {
+    max-width: 750px;
+    margin-right: 50px;
+  }
+  .textBlock h5 {
+    margin-bottom: 30px;
+  }
+
+  .textBlock p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .spesificInfo__elem {
+    padding: 25px 50px 20px 30px;
+    min-width: 390px;
+  }
+
+  .spesificInfo__elem h6 {
+    font-size: 27px;
+    line-height: 33px;
+    margin-bottom: 18px;
+  }
+
+  .spesificInfo__elem p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .spesificInfo__elem img {
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media (max-width: 1000px) {
-    .aboutMe {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-bottom: 50px;
-    }
-    .spesificInfo{
-        margin-bottom: 50px;
-    }
-    .textBlock {
-        max-width: fit-content;
-        margin-right: 0px;
-    }
+  .aboutMe {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .spesificInfo {
+    margin-bottom: 50px;
+  }
+  .textBlock {
+    max-width: fit-content;
+    margin-right: 0px;
+  }
 }
 @media (max-width: 520px) {
-    .textBlock p {
-        font-size: 20px;
-        line-height: 28px;
-    }
+  .textBlock p {
+    font-size: 20px;
+    line-height: 28px;
+  }
 
-    .spesificInfo__elem {
-        padding: 15px 20px;
-        min-width: fit-content;
-    }
-    
-    .spesificInfo__elem h6 {
-        font-size: 23px;
-        line-height: 30px;
-        margin-bottom: 14px;
-    }
-    
-    .spesificInfo__elem p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    
-    .spesificInfo__elem img {
-        width: 30px;
-        height: 30px;
-    }
+  .spesificInfo__elem {
+    padding: 15px 20px;
+    min-width: fit-content;
+  }
+
+  .spesificInfo__elem h6 {
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 14px;
+  }
+
+  .spesificInfo__elem p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .spesificInfo__elem img {
+    width: 30px;
+    height: 30px;
+  }
 }
