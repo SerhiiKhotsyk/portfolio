@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.132e0a94.css",
-    "main.js": "/portfolio/static/js/main.75742d70.js",
+    "main.css": "/portfolio/static/css/main.187088dc.css",
+    "main.js": "/portfolio/static/js/main.7c7dd850.js",
     "static/media/mui-layout-project.jpg": "/portfolio/static/media/mui-layout-project.9098256bb37ce89f4723.jpg",
     "static/media/react-pizza.jpg": "/portfolio/static/media/react-pizza.15ca2c2c56881d14b1ef.jpg",
     "static/media/Roboto-Medium.ttf": "/portfolio/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
@@ -34,13 +34,12 @@
     "static/media/tailwind.svg": "/portfolio/static/media/tailwind.b9b1c1f1882bc9294438cade232ec45e.svg",
     "static/media/email.svg": "/portfolio/static/media/email.8e418980a13bfe4978bb5b814099b399.svg",
     "index.html": "/portfolio/index.html",
-    "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.c780682470504fffbd04.cjs",
     "static/media/teg.svg": "/portfolio/static/media/teg.0b470537c0543de9b2dfcd63b61830ea.svg",
-    "main.132e0a94.css.map": "/portfolio/static/css/main.132e0a94.css.map",
-    "main.75742d70.js.map": "/portfolio/static/js/main.75742d70.js.map"
+    "main.187088dc.css.map": "/portfolio/static/css/main.187088dc.css.map",
+    "main.7c7dd850.js.map": "/portfolio/static/js/main.7c7dd850.js.map"
   },
   "entrypoints": [
-    "static/css/main.132e0a94.css",
-    "static/js/main.75742d70.js"
+    "static/css/main.187088dc.css",
+    "static/js/main.7c7dd850.js"
   ]
 }
