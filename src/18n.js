@@ -8,14 +8,18 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    supportedLngs: ['en', 'ua'],
     fallbackLng: window.localStorage.getItem('language') || 'en',
     debug: true,
     detection: {
-      order: ['queryString', 'cookie'],
+      order: ['cookie', 'queryString'],
       cache: ['cookie'],
     },
     interpolation: {
       escapeValue: false,
+    },
+    backend: {
+      loadPath: 'https://serhiikhotsyk.github.io/portfolio/locales/{{lng}}/transplation.json',
     },
   });
 
