@@ -11,21 +11,21 @@ import { forwardRef } from 'react';
 const projects = [
   {
     id: 1,
-    title: 'MUI layout',
-    img: project1,
-    linkPreview: 'https://serhiikhotsyk.github.io/mui-layout/',
-    linkGithub: 'https://github.com/SerhiiKhotsyk/mui-layout',
-    stack: 'HTML , JavaScript,  React,  MUI 5',
-    descr: 'MUI layout description',
-  },
-  {
-    id: 2,
     title: 'React Pizza',
     img: project2,
     linkPreview: 'https://serhiikhotsyk.github.io/react-pizza/',
     linkGithub: 'https://github.com/SerhiiKhotsyk/react-pizza',
     stack: 'TypeScript, SASS, React, Axios, React Router v6, Redux Toolkit, React Hooks',
     descr: 'React Pizza layout description',
+  },
+  {
+    id: 2,
+    title: 'MUI layout',
+    img: project1,
+    linkPreview: 'https://serhiikhotsyk.github.io/mui-layout/',
+    linkGithub: 'https://github.com/SerhiiKhotsyk/mui-layout',
+    stack: 'HTML , JavaScript,  React,  MUI 5',
+    descr: 'MUI layout description',
   },
   {
     id: 3,
