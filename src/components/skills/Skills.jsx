@@ -47,19 +47,4 @@ const Skills = forwardRef((props, ref) => {
   );
 });
 
-// const Skills = () => {
-//   return (
-//     <section className={styles.container}>
-//       <div className={styles.skills}>
-//         <h5>skills<span>()</span></h5>
-//         <div className={styles.images}>
-//           {images.map(img => <div className={styles.imgContainer} key={img}>
-//             <img src={img} alt='icon' />
-//           </div>)}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
 export default Skills;

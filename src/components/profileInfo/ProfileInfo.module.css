@@ -37,6 +37,7 @@ h1 {
 
 .experience {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .experience__elem {
