@@ -1,9 +1,9 @@
-import { forwardRef } from 'react';
-import { useTranslation } from 'react-i18next';
+import { forwardRef, useContext } from 'react';
+import { LangContext } from '../../hoc/LangProvider/LangProvider';
 import styles from './Connect.module.css';
 
 const Connect = forwardRef((props, ref) => {
-  const { t } = useTranslation();
+  const { t } = useContext(LangContext);
 
   return (
     <section className={styles.container} ref={ref}>

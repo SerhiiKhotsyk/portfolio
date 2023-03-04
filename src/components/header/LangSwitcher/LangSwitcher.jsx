@@ -1,26 +1,22 @@
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useContext, useState } from 'react';
+import { LangContext } from '../../../hoc/LangProvider/LangProvider';
 import styles from './LangSwitcher.module.css';
 
 const LangSwitcher = () => {
-  const [langMode, setLangMode] = useState(window.localStorage.getItem('language') || 'en');
-  const { i18n } = useTranslation();
+  const { langMode, setLangMode } = useContext(LangContext);
 
   const handleSwitch = () => {
     if (langMode === 'en') {
       setLangMode('ua');
-      i18n.changeLanguage('ua');
       window.localStorage.setItem('language', 'ua');
     } else {
       setLangMode('en');
-      i18n.changeLanguage('en');
       window.localStorage.setItem('language', 'en');
     }
   };
-  console.log(langMode);
 
   return (
-    <div onClick={handleSwitch} className={styles.language}>
+    <div onClick={() => handleSwitch()} className={styles.language}>
       <p
         className={
           langMode === 'en'

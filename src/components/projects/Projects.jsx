@@ -84,15 +84,4 @@ const Projects = forwardRef((props, ref) => {
   );
 });
 
-// const Projects = () => {
-//   return (
-//     <section className={styles.projects}>
-//       <h5>projects<span>()</span></h5>
-//       <div className={styles.projects__container}>
-//         {projects.map(project => <Project key={project.id} project={project} />)}
-//       </div>
-//     </section>
-//   );
-// }
-
 export default Projects;

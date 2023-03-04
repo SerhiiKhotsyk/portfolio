@@ -1,10 +1,11 @@
 import styles from './Project.module.css';
 import projLink from '../../../assets/images/projects/chain.svg';
 import github from '../../../assets/images/projects/github.svg';
-import { useTranslation } from 'react-i18next';
+import { useContext } from 'react';
+import { LangContext } from '../../../hoc/LangProvider/LangProvider';
 
 const Project = ({ project }) => {
-  const { t } = useTranslation();
+  const { t } = useContext(LangContext);
 
   return (
     <div className={styles.element}>

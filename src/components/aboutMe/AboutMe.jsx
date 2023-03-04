@@ -1,11 +1,11 @@
 import styles from './AboutMe.module.css';
 import braces from '../../assets/images/aboutMe/braces.svg';
 import teg from '../../assets/images/aboutMe/teg.svg';
-import { forwardRef } from 'react';
-import { useTranslation } from 'react-i18next';
+import { forwardRef, useContext } from 'react';
+import { LangContext } from '../../hoc/LangProvider/LangProvider';
 
 const AboutMe = forwardRef((props, ref) => {
-  const { t } = useTranslation();
+  const { t } = useContext(LangContext);
 
   return (
     <section className={styles.container} ref={ref}>

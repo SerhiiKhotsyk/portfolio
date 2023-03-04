@@ -3,10 +3,11 @@ import profilePhoto from '../../assets/images/header/profilePhoto.png';
 import reactIcon from '../../assets/images/header/react.svg';
 import TSIcon from '../../assets/images/header/typeScript.svg';
 import htmlIcon from '../../assets/images/header/html.svg';
-import { useTranslation } from 'react-i18next';
+import { useContext } from 'react';
+import { LangContext } from '../../hoc/LangProvider/LangProvider';
 
 const ProfileInfo = () => {
-  const { t } = useTranslation();
+  const { t } = useContext(LangContext);
 
   return (
     <section className={styles.profileInfo}>
