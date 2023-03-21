@@ -1,10 +1,7 @@
 import styles from './Projects.module.css';
 import project1 from '../../assets/images/projects/mui-layout-project.jpg';
 import project2 from '../../assets/images/projects/react-pizza.jpg';
-import project3 from '../../assets/images/projects/project-3.jpg';
-import project4 from '../../assets/images/projects/project-4.jpg';
-import project5 from '../../assets/images/projects/project-5.jpg';
-import project6 from '../../assets/images/projects/project-6.jpg';
+import project3 from '../../assets/images/projects/kino-space.jpg';
 import Project from './Project/Project';
 import { forwardRef } from 'react';
 
@@ -20,22 +17,21 @@ const projects = [
   },
   {
     id: 2,
+    title: 'KINO-SPACE',
+    img: project3,
+    linkPreview: 'https://serhiikhotsyk.github.io/kino-space/',
+    linkGithub: 'https://github.com/SerhiiKhotsyk/kino-space',
+    stack: 'HTML , JavaScript, SASS, React, Axios, Redux Toolkit',
+    descr: 'KINO-SPACE description',
+  },
+  {
+    id: 3,
     title: 'MUI layout',
     img: project1,
     linkPreview: 'https://serhiikhotsyk.github.io/mui-layout/',
     linkGithub: 'https://github.com/SerhiiKhotsyk/mui-layout',
     stack: 'HTML , JavaScript,  React,  MUI 5',
     descr: 'MUI layout description',
-  },
-  {
-    id: 3,
-    title: 'Project Tile goes here',
-    img: project3,
-    linkPreview: '#',
-    linkGithub: '#',
-    stack: 'HTML , JavaScript, SASS, React',
-    descr:
-      'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content scription This is sample project lorem ipsum',
   },
   // {
   //   id: 4,

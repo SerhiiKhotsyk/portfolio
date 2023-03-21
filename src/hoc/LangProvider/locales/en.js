@@ -31,6 +31,9 @@ export const en = {
     'This project is written on the React framework, using the MUI library. This project aims to demonstrate the use of the MUI library and its components in modern site layout.',
   'React Pizza layout description':
     'A full-fledged frontend application on React, which shows the creation of components and pages, sorting, searching, pagination, filtering, interacting with the backend, sending requests to the backend. This project is written using strictly typed code in Typescript.',
+  'KINO-SPACE description':
+    'A project with a catalog of films, where you can apply various kinds of sorting, searching, transitions between catalogs of films, etc. This project uses the TMDB database, as well as interaction with its API.',
+
   'View project': 'View project',
   'Tech stack': 'Tech stack',
   'Live Preview': 'Live Preview',
